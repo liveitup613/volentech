@@ -61,7 +61,7 @@
               <ul role="list" class="sidebar-navigation">
                 <li class="style-guide-link-wrapper">
                   <a href="#Strength" class="style-guide-link w-inline-block">
-                    <div class="style-guide-icon-link"><img src="<?php echo base_url('assets/images/strength-icon.png');?>" alt="Colors Icon - Architecture X Webflow Template" class="style-guide-sidebar-icon"></div>
+                    <div class="style-guide-icon-link"><img src="<?php echo base_url('assets/images/strength-Icon.png');?>" alt="Colors Icon - Architecture X Webflow Template" class="style-guide-sidebar-icon"></div>
                     <div>Our Strength</div>
                   </a>
                 </li>
