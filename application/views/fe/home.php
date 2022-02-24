@@ -1,3 +1,6 @@
+<?php
+    header('Access-Control-Allow-Origin: *');
+?>
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
 <!--  Last Published: Mon Feb 14 2022 06:14:05 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="62097af6825589dff3527a00" data-wf-site="62097af682558945435279fd">
