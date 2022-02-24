@@ -468,7 +468,7 @@
   <script>
     // Next/previous controls        
 
-    for (var i = 1; i <= 2; i++) 
+    for (var i = 1; i <= <?php echo count($portfolios);?>; i++) 
         plusSlides(0, i);
 
     function plusSlides(n, index) {
