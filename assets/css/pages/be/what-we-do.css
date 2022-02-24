@@ -1,0 +1,88 @@
+.portlet.profile-portlet {    
+    padding: 30px 0 0;
+    min-height: 300px;
+}
+
+.portlet.profile-portlet-new {
+    padding: 30px 0 0;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.profile-pic .badge { 
+    position: absolute;
+    bottom: center;
+    right: center;
+}
+
+.profile-pic img {
+    float: none;
+    margin: 0 auto;
+    height: 40%;
+    max-height: 144px;
+    /* -webkit-border-radius: 50%!important;
+    -moz-border-radius: 50%!important;
+    border-radius: 50%!important; */
+}
+
+.profile-title {
+    text-align: center;
+    margin-top: 20px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+}
+
+.profile-title-name {
+    color: #5a7391;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.profile-buttons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.profile-buttons .btn {
+    margin-right: 5px;
+    min-width : 70px;
+}
+
+.profile-buttons button {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 6px 15px;
+}
+
+.portfolio {
+    max-height: 150px;
+}
+
+.portfolio-box {
+    position: relative;
+    width: fit-content;    
+}
+
+.portfolio-camera {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -15px;
+    margin-left: -15px;        
+}

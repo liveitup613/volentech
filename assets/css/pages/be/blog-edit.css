@@ -1,0 +1,18 @@
+.portfolio {
+    max-height: 150px;
+}
+
+.portfolio-box {
+    position: relative;
+    width: fit-content;    
+}
+
+.portfolio-camera {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -15px;
+    margin-left: -15px;        
+}

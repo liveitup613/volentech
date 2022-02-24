@@ -1,0 +1,38 @@
+.new-core-value {
+    margin: 8px 0px;
+    text-align: center;
+}
+
+.core-value {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    border: 0px solid lightgrey;
+    border-bottom-width: 1px;
+    padding: 4px 0px;
+}
+
+@media only screen and (max-width:576px) {
+    .core-value {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        margin-bottom: 0px;
+    }
+}
+
+.core-value-buttons {
+    margin: 0px 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+@media only screen and (max-width:576px) {
+    .core-value-buttons {
+        margin: 8px 0px;
+    }
+}
