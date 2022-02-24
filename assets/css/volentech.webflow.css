@@ -11728,28 +11728,57 @@ figcaption {
 
 @font-face {
   font-family: 'Icons Architecture X Template';
-  src: url('../fonts/icons-architecture-x-template.woff2') format('woff2');
+  src: url('https://www.volentech.com/assets/fonts/icons-architecture-x-template.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Satoshi';
-  src: url('../fonts/Satoshi-Regular.otf') format('opentype');
+  src: url('https://www.volentech.com/assets/fonts/Satoshi-Regular.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Satoshi';
-  src: url('../fonts/Satoshi-Medium.otf') format('opentype');
+  src: url('https://www.volentech.com/assets/fonts/Satoshi-Medium.otf') format('opentype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Satoshi';
-  src: url('../fonts/Satoshi-Bold.otf') format('opentype');
+  src: url('https://www.volentech.com/assets/fonts/Satoshi-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Icons Architecture X Template';
+  src: url('https://volentech.com/assets/fonts/icons-architecture-x-template.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('https://volentech.com/assets/fonts/Satoshi-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('https://volentech.com/assets/fonts/Satoshi-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('https://volentech.com/assets/fonts/Satoshi-Bold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
