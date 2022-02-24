@@ -58,7 +58,7 @@
                     <div class="dropdown-nav-content">
                         <ul role="list" class="dropdown-nav">
                         <li class="dropdown-nav-item">
-                            <a href="<?php echo base_url();?>" aria-current="page" class="dropdown-nav-link">Projects</a>
+                            <a href="<?php echo base_url('projects');?>" aria-current="page" class="dropdown-nav-link">Projects</a>
                         </li>
                         <li class="dropdown-nav-item">
                             <a href="<?php echo base_url();?>" class="dropdown-nav-link">Jobs</a>

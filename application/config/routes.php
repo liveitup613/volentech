@@ -54,6 +54,7 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['about'] = 'home/aboutUs';
 $route['contact'] = 'home/contactUs';
+$route['projects'] = 'home/projects';
 $route['service/hardware'] = 'home/hardware';
 $route['service/embedded'] = 'home/embedded';
 $route['service/software'] = 'home/software';

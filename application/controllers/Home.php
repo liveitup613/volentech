@@ -39,6 +39,8 @@ class Home extends CI_Controller {
 
 		$this->db->select();
 		$this->db->from('tblportfolios');
+		$this->db->limit(2);
+		$this->db->order_by('ID', 'desc');
 		$portfolios = $this->db->get()->result_array();
 
 		$portfolios_array = array();
@@ -71,6 +73,26 @@ class Home extends CI_Controller {
     public function aboutUs() {
 		$data = array();
         $this->load->view('fe/about-us', $data); 
+	}
+
+	public function projects() {
+		$this->db->select();
+		$this->db->from('tblportfolios');
+		$portfolios = $this->db->get()->result_array();
+
+		$portfolios_array = array();
+		foreach ($portfolios as $portfolio) {
+			$this->db->select();
+			$this->db->where('PortfolioID', $portfolio['ID']);
+			$this->db->from('tblslides');
+			$portfolio['Slides'] = $this->db->get()->result_array();
+
+			array_push($portfolios_array, $portfolio);
+		}
+
+		$data['portfolios'] = $portfolios_array;
+
+		$this->load->view('fe/projects', $data);
 	}
 
 	public function contactUs() {
