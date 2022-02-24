@@ -25,7 +25,7 @@
       <div class="container-medium-865px about-hero">
         <h1 data-w-id="e6a3fff3-5f8d-a7c1-9b3e-bea4c5447b49"
           style="-webkit-transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-          class="title display-1">About <span class="no-wrap">our firm</span></h1>
+          class="title display-1">About <span class="no-wrap">our Firm</span></h1>
         <p data-w-id="f56602ff-f000-5508-975a-7151f1c1f877"
           style="-webkit-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
           class="paragraph-large about-hero">As a premier group of Engineers we bring ideas and concepts into reality
@@ -53,9 +53,8 @@
           <div class="story-content-top">
             <div data-w-id="77fdc372-c36a-65b3-4b19-f4a3abb8c79b"
               style="-webkit-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-              class="story-content-top-main-content">
-              <div class="subtitle color-neutral-500">/ 01</div>
-              <h2 class="title color-neutral-100 story-title">Our firm story</h2>
+              class="story-content-top-main-content">              
+              <h2 class="title color-neutral-100 story-title">Our Story</h2>
               <p class="paragraph color-neutral-400 story-paragraph">VolenTechs’ mission statement is to design and
                 develop the most efficient and technically advanced engineering solutions for our customers by
                 satisfying the end-user requirements and continuous customer feedback. We develop innovative products
@@ -85,7 +84,6 @@
             <div data-w-id="9b5c9832-0063-ebac-d2e2-8d1dd64cc81a"
               style="-webkit-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
               class="story-content-bottom-main-content">
-              <div class="subtitle color-neutral-500">/ 02</div>
               <h2 class="title color-neutral-100 story-title">How we started</h2>
               <p class="paragraph color-neutral-400 story-paragraph">We began pursuing micro projects on freelancer
                 websites in different areas of technology. With each successful project we established new relationships
@@ -107,8 +105,7 @@
         <div class="about-achievements-wrapper">
           <div data-w-id="5d31b29e-6ec7-7f28-ef63-a5fcad790d29"
             style="-webkit-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-            class="about-achievements-content">
-            <div class="subtitle">/ 03</div>
+            class="about-achievements-content">            
             <h2 class="title about-achievements">Our impact in numbers</h2>
             <p class="paragraph about-achievements">We believe in continuous and rapid growth by building a strong
               network in the tech industry. With the right mixture of talent in our firm and the years of expertise has
@@ -147,8 +144,7 @@
         <div data-w-id="f9938aaa-fcb8-8bcc-4c73-c05d6e85c7c0"
           style="-webkit-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
           class="content-top team-members">
-          <div class="split-content content-top-team-members-left">
-            <div class="subtitle color-neutral-500">/ 04</div>
+          <div class="split-content content-top-team-members-left">            
             <h2 class="title color-neutral-100 team-members">Meet our team</h2>
           </div>
         </div>
@@ -204,8 +200,7 @@
         <div data-w-id="26a4338f-de2a-1d0e-232b-0ebea1299630"
           style="-webkit-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
           class="content-top values">
-          <div class="split-content content-top-values-left">
-            <div class="subtitle">/ 05</div>
+          <div class="split-content content-top-values-left">            
             <h2 class="title values">Our Values</h2>
             <p class="paragraph values">We are a highly determined firm and always a step ahead in honoring our core
               values</span></p>

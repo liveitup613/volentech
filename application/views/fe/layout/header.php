@@ -10,7 +10,7 @@
         <nav role="navigation" class="nav-menu w-nav-menu">
         <ul role="list" class="header-navigation">
             <li class="nav-item-wrapper">
-            <a href="<?php echo base_url();?>" aria-current="page" class="nav-link w--current">Homes</a>
+            <a href="<?php echo base_url();?>" aria-current="page" class="nav-link w--current">Home</a>
             </li>
             <li class="nav-item-wrapper">
             <a href="<?php echo base_url('about');?>" class="nav-link">About</a>

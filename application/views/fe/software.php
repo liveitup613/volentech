@@ -23,10 +23,7 @@
       <div class="container-default w-container">
         <div class="service-hero-content">
           <h1 data-w-id="fd85e6d6-892f-ebcc-e259-e65fe381bc3e" style="-webkit-transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="title service-hero">Software Design</h1>
-          <p data-w-id="39c27589-c071-1823-79f3-81caa90b1bf4" style="-webkit-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="paragraph-large service-hero">Volentech has expertise in various programming languages that help in developing software applications for Graphic User Interface (GUI), python scripts and other code-based applications.</p>
-          <div data-w-id="0ddac4e3-bcd4-a4e2-8a84-7284f5a6dd8a" style="-webkit-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0">
-            <a href="<?php echo base_url('contact');?>" class="button-primary w-button">Get in touch  <span class="button-arrow"></span></a>
-          </div>
+          <p data-w-id="39c27589-c071-1823-79f3-81caa90b1bf4" style="-webkit-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="paragraph-large service-hero">Volentech has expertise in various programming languages that help in developing software applications for Graphic User Interface (GUI), python scripts and other code-based applications.</p>          
         </div>
       </div>
       <div class="image-wrapper service-hero"><img src="<?php echo base_url('assets/images/image-service-software-template.png');?>" loading="eager" data-w-id="d34bf91e-7a65-8b1a-621d-60e75515a515" sizes="(max-width: 991px) 100vw, 47vw" srcset="<?php echo base_url('assets/images/image-image-service-software-template-p-500.png');?> 500w, <?php echo base_url('assets/images/image-service-software-template.png');?> 1354w" alt="Our Services - Architecture X Webflow Template" class="image service-hero"></div>
@@ -37,13 +34,11 @@
       </div>
     </section>
     <section class="section bg-neutral-800 wf-section">
-      <div data-w-id="4f1dc386-85c1-f302-3ad7-55c410150e39" style="-webkit-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="container-medium-840px">
-        <div class="subtitle color-neutral-500">/ 01</div>
+      <div data-w-id="4f1dc386-85c1-f302-3ad7-55c410150e39" style="-webkit-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="container-medium-840px">        
         <h2 class="title color-neutral-100">About the service</h2>
         <div class="rich-text-white w-richtext">
           <p>Volentech provides cost efficient solutions in various platforms like C/C++, Python, .Net to name a few.<br>We also engage in various custom application development and maintenance, in-house deploy, and develop software.</p>
-        </div>
-        <a href="<?php echo base_url('contact');?>" class="button-primary button-white w-button">Get in touch  <span class="button-arrow"></span></a>
+        </div>        
       </div>
       <div class="bg page-lines-wrapper">
         <div class="page-lines-outside dark">
@@ -106,7 +101,6 @@
         <div class="service-contact-wrapper">
           <div data-w-id="44d3d200-e8e4-4a86-729b-b9e6296b46d3" style="-webkit-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="service-contact-content">
             <div class="service-contact-content-top">
-              <div class="subtitle color-neutral-500">/ 03</div>
               <h2 class="title color-neutral-100 service-contact">Get a free project quote today.</h2>
               <p class="paragraph color-neutral-400 service-contact">We are always here to help you. Feel free to reach out to us with any questions.</p> 
             </div>

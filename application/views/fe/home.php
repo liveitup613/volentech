@@ -31,11 +31,11 @@
       <div class="container-default w-container">
         <h1 data-w-id="553af6a3-865f-d37b-3150-a1d3d3c08f62"
           style="opacity:0;-webkit-transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-          class="title display-1 home-hero">We are a fine Engineering firm in <span class="no-wrap">California</span>
+          class="title display-1 home-hero">We are a fine Engineering Firm in <span class="no-wrap">California</span>
         </h1>
         <p style="-webkit-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
           class="paragraph-large home-hero">As a premier group of Engineers we bring ideas and concepts into reality
-          working with a wide range of technologies.</p>
+          working with a wide range of Technologies.</p>
         <div
           style="-webkit-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
           class="home-hero-content-bottom">
@@ -70,8 +70,7 @@
       <div class="container-default w-container">
         <div data-w-id="cfa66492-4bb4-45bd-9f22-34765dea0288"
           style="-webkit-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-          class="home-services-content-top">
-          <div class="subtitle color-neutral-500">/ 01</div>
+          class="home-services-content-top">          
           <h2 class="title color-neutral-100 home-services">Our services</h2>
           <p class="paragraph color-neutral-400 home-services">We have a broad range of expertise in Hardware, Software and Firmware development</p>
         </div>
@@ -157,11 +156,10 @@
               loading="eager" sizes="(max-width: 479px) 93vw, (max-width: 767px) 94vw, (max-width: 991px) 95vw, 816px"
               srcset="<?php echo base_url('assets/images/image-home-about-architecture-x-template-p-500.png');?> 500w, <?php echo base_url('assets/images/image-home-about-architecture-x-template.png');?> 1632w"
               alt="About Us - Architecture X Webflow Template" class="image home-about"></div>
-          <div class="home-about-content">
-            <div class="subtitle">/ 02</div>
+          <div class="home-about-content">            
             <h2 class="title home-about">About our firm</h2>
             <p class="paragraph home-about">Volentech is a multi-discipline engineering design firm experienced in the latest cutting edge technologies offering our customers innovative solutions in Hardware, Firmware, Embedded and Software applications. We deliver projects with complete customer satisfaction using end user feedbacks.</p>
-            <a href="<?php echo base_url('contact');?>" class="button-primary w-button">Get in touch  <span class="button-arrow"></span></a>
+            <a href="<?php echo base_url('about');?>" class="button-primary w-button">Learn More  <span class="button-arrow"></span></a>
           </div>
         </div>
       </div>
@@ -189,8 +187,7 @@
         <div data-w-id="c5418fc2-dea6-fe29-f1eb-cf1619c0c2cd"
           style="-webkit-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
           class="content-top home-portfolio">
-          <div class="split-content content-top-home-portfolio-left">
-            <div class="subtitle">/ 03</div>
+          <div class="split-content content-top-home-portfolio-left">            
             <h2 class="title home-portfolio">Our portfolio</h2>
           </div>          
         </div>
@@ -251,16 +248,7 @@
                 }
               ?>
           </div>
-        </div>
-        <div data-w-id="7eb1ff62-f4cb-2337-17e8-dbd8913217e4"
-          style="-webkit-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-          class="flex-vc">
-          <div class="_2-buttons">
-            <a href="<?php echo base_url('contact');?>" class="button-primary _2-buttons-button w-button">Get in touch  <span
-                class="button-arrow"></span></a>
-            <!-- <a href="portfolio.html" class="button-secondary _2-buttons-button w-button">Browse portfolio</a> -->
-          </div>
-        </div>
+        </div>        
       </div>
       <div class="bg page-lines-wrapper">
         <div style="filter:invert(100%);width:0px" class="page-lines-outside">
@@ -273,8 +261,7 @@
         <div data-w-id="abac474b-8276-17ea-2a02-ab696d3fd815"
           style="-webkit-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
           class="home-project-featured-wrapper">
-          <div class="home-project-featured-content">
-            <div class="subtitle color-neutral-500">/ 04</div>
+          <div class="home-project-featured-content">            
             <h2 class="title color-neutral-100 home-project-featured-title">Take a look at our most recent project</h2>            
             <a href="<?php echo base_url('contact');?>" class="button-primary button-white w-button" style="margin-top: 1rem">Get in touch  <span
                 class="button-arrow"></span></a>
@@ -319,8 +306,7 @@
       <div class="container-default w-container">
         <div data-w-id="00df75c9-5790-33b1-2bf8-b8433f789867"
           style="-webkit-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-          class="home-testimonial-title-wrapper">
-          <div class="subtitle">/ 05</div>
+          class="home-testimonial-title-wrapper">          
           <h2 class="title home-testimonial">What our <span class="no-wrap">clients say</span></h2>
         </div>
         <div data-delay="4000" data-animation="slide" class="home-services-slider w-slider" data-autoplay="false"
@@ -382,12 +368,7 @@
             }
             ?>
           <div class="slide-nav w-slider-nav w-round"></div>
-        </div>        
-        <div data-w-id="d61e6d76-69c6-0cf7-2487-915bb36445f2"
-          style="-webkit-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-          class="flex-vc">
-          <a href="<?php echo base_url('contact');?>" class="button-primary w-button">Get in touch  <span class="button-arrow"></span></a>
-        </div>
+        </div>                
       </div>
       <div class="bg page-lines-wrapper">
         <div style="filter:invert(100%);width:0px" class="page-lines-outside">
@@ -400,8 +381,7 @@
         <div data-w-id="6c4d6b55-f0c1-9be4-33e9-42b8d9349df2"
           style="-webkit-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
           class="content-top blog-section">
-          <div class="split-content content-top-blog-section-left">
-            <div class="subtitle color-neutral-500">/ 06</div>
+          <div class="split-content content-top-blog-section-left">            
             <h2 class="title color-neutral-100 blog-section">News &amp; Articles</h2>
           </div>          
         </div>
