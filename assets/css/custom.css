@@ -86,7 +86,7 @@
   /* Hide the images by default */
   .mySlides {
     display: none;
-    height: 400px;
+    height: 600px;
     align-items: center;
   }
   
@@ -182,7 +182,7 @@
     }
 
     .mySlides {
-      height: 250px;
+      height: 400px;
     }
   }
 
@@ -192,7 +192,7 @@
     }
 
     .mySlides {
-      height: 220px;
+      height: 400px;
     }
   }
 
