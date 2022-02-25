@@ -154,7 +154,7 @@ class Home extends CI_Controller {
 		$this->email->to('yugansh@volentech.com');
 		$this->email->subject('Contact Us');
 
-		$cotent = "Name: <strong>".$name. "</strong><br>Phone: <strong>" . $phone . "</strong><br>Email: <strong>" .$email ."</strong><br>Message:<br><strong>". $message.'</strong>';
+		$cotent = "Name: <strong>".$name. "</strong><br>Phone: <strong>" . $phone . "</strong><br>Email: <strong>" .$email ."</strong><br>Subject: <strong>" .$subject ."</strong><br>Message:<br><strong>". $message.'</strong>';
 		$this->email->message($cotent);
 
 		if ($this->email->send())
