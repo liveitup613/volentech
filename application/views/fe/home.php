@@ -231,12 +231,20 @@
                 </div>
                 <div class="project-item-main-content">
                   <div class="project-item-content">
+                    <h3 class="title h3-size"><?php echo $portfolios[$i]['Title'];?></h3>                    
                     <div class="project-item-content-top">
                       <div><?php echo $portfolios[$i]['Location'];?></div>
                       <div class="project-item-content-top-divider"></div>
                       <div><?php echo getFormatedDate($portfolios[$i]['Date']);?></div>
                     </div>
-                    <h3 class="title h3-size project-item-title"><?php echo $portfolios[$i]['Title'];?></h3>                    
+                    <div class="project-item-content-top">
+                      <ul>
+                        <?php
+                          foreach ($portfolios[$i]['Descriptions'] as $description)
+                            echo '<li>' . $description['Title'] . '</li>';
+                        ?>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>

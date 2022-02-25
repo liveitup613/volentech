@@ -67,6 +67,7 @@ class ManageHome extends CI_Controller {
 			$data['Date'] = '';
 			$data['Location'] = '';
 			$data['ID'] = 0;
+			$data['descriptions'] = array();
 			$data['Images'] = array();
 		}
 		else {
@@ -74,6 +75,12 @@ class ManageHome extends CI_Controller {
 			$this->db->from('tblportfolios');
 			$this->db->where('ID', $ID);
 			$data = $this->db->get()->row_array();
+
+			$this->db->select();
+			$this->db->where('PortfolioID', $ID);
+			$this->db->from('tblport_descriptions');
+			$data['descriptions'] = $this->db->get()->result_array();
+
 
 			$this->db->select();
 			$this->db->from('tblslides');
@@ -597,6 +604,83 @@ class ManageHome extends CI_Controller {
 		echo json_encode(array(
 			'success' => true
 		));
+	}
+
+	/*
+	*	Portfolio Description
+	*/
+	public function getPortfolioDescription() {
+		$ID = $this->input->post('ID');
+
+		$this->db->select('*');
+		$this->db->where("ID", $ID);
+		$this->db->from('tblport_descriptions');
+		$data = $this->db->get()->row_array();
+
+		if ($data == null) {
+			echo json_encode(
+				array(
+					'success' => false
+				)
+				);
+			return;
+		}
+
+		echo json_encode(
+			array(
+				'success' => true,
+				'description' => $data
+			)
+			);
+	}
+
+	public function addPortfolioDescription() {
+		$data = $this->input->post();
+
+		$id = $this->db->insert('tblport_descriptions', $data);
+
+		if ($id == false) {
+			echo json_encode(
+				array(
+					'success' => false
+				)
+				);
+			return;
+		}
+
+		echo json_encode(
+			array(
+				'success' => true,
+				'inserted_id' => $id
+			)
+			);
+	}
+
+	public function updatePortfolioDescription() {
+		$ID = $this->input->post('ID');
+		$data = $this->input->post();
+
+		$this->db->where('ID', $ID);
+		$this->db->update('tblport_descriptions', $data);
+
+		echo json_encode(
+			array(
+				'success' => true
+			)
+			);
+	}
+
+	public function deletePortfolioDescription() {
+		$ID = $this->input->post('ID');
+
+		$this->db->where('ID', $ID);
+		$this->db->delete('tblport_descriptions');
+
+		echo json_encode(
+			array(
+				'success' => true
+			)
+			);
 	}
 
 	// Add Log

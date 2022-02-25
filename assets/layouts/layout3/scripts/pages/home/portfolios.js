@@ -170,3 +170,94 @@ $('#btnUpdatePortfolio').click(function() {
         }
 	});
 });
+
+
+// Descriptions
+
+$('#btnAddNewDescriptionModal').click(function() {
+    $('#AddNewDescriptionModal').modal('show');
+});
+
+$('#btnAddNewDescription').click(function() {
+    if (!$('#addNewForm').valid())
+        return;
+
+    $.ajax({
+        url: base_url + 'api/portfolio/description/add',
+        type: 'post',
+        data: {            
+            PortfolioID: $('#ID').val(),
+            Title : $('#Description').val(),                                   
+        },
+        success: function() {
+            document.location.reload();
+        },
+        error: function(err) {
+            showErrorToastr('Add New Description');
+        }        
+    })
+});
+
+function editValue(ID) {
+    editedID = ID;
+    $.ajax({
+        url: base_url + 'api/portfolio/description/get',
+        type: 'post',
+        data: {
+            ID: ID
+        },
+        success: function(res) {
+            var data = JSON.parse(res);
+
+            if (data.success == false) {
+                showErrorToastr('Get Comment');
+                return;
+            }
+
+            $('#DescriptionEdit').val(data.description.Title);           
+            $('#EditDescriptionModal').modal('show');
+        }
+    })
+    
+    
+}
+
+$('#btnUpdateDescription').click(function() {
+    $.ajax({
+        url: base_url + 'api/portfolio/description/update',
+        type: 'post',
+        data: {
+            ID: editedID,
+            Title : $('#DescriptionEdit').val(),                      
+        },
+        success: function(res) {
+            document.location.reload();
+        },
+        error: function(err) {
+            showErrorToastr('Update Description');
+        }
+    })
+})
+
+
+
+function deleteValue(ID) {
+    editedID = ID;
+    $('#deleteDescriptionModal').modal('show');
+}
+
+$('#btnDeleteDescription').click(function() {
+    $.ajax({
+        url : base_url + 'api/portfolio/description/delete',
+        type: 'post',
+        data: {
+            ID : editedID
+        },
+        success: function() {
+            document.location.reload();
+        },
+        error: function(err) {
+            showErrorToastr('Delete Description');
+        }
+    })
+});

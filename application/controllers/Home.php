@@ -50,6 +50,11 @@ class Home extends CI_Controller {
 			$this->db->from('tblslides');
 			$portfolio['Slides'] = $this->db->get()->result_array();
 
+			$this->db->select();
+			$this->db->where('PortfolioID', $portfolio['ID']);
+			$this->db->from('tblport_descriptions');
+			$portfolio['Descriptions'] = $this->db->get()->result_array();
+
 			array_push($portfolios_array, $portfolio);
 		}
 

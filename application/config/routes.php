@@ -96,5 +96,10 @@ $route['api/slide/update'] = 'manageHome/updateSlide';
 $route['api/slide/delete'] = 'manageHome/deleteSlide';
 
 
+$route['api/portfolio/description/add'] = 'manageHome/addPortfolioDescription';
+$route['api/portfolio/description/get'] = 'manageHome/getPortfolioDescription';
+$route['api/portfolio/description/update'] = 'manageHome/updatePortfolioDescription';
+$route['api/portfolio/description/delete'] = 'manageHome/deletePortfolioDescription';
+
 $route['api/sendEmail'] = 'manageContactUs/sendEmail';
 

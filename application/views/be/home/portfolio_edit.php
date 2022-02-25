@@ -18,6 +18,7 @@
         <!-- END GLOBAL STYLES -->
 
         <link href="<?php echo base_url('assets/css/pages/be/what-we-do.css');?>" rel="stylesheet" type="text/css" />
+        <link href="<?php echo base_url('assets/css/pages/be/about-us.css');?>" rel="stylesheet" type="text/css" />
         <link rel="shortcut icon" href="<?php echo base_url('favicon.png');?>" />
      </head>
     <!-- END HEAD -->
@@ -103,7 +104,28 @@
                                                                 <a href="<?php echo base_url('admin/portfolios');?>" class="btn default" id="btnCancel"><i class='fa fa-mail-reply-all'></i> Cancel</a>
                                                             </div>                                                        
                                                         </div>
-                                                    </div>         
+                                                    </div> 
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-2">Descriptions</label>
+                                                        <div class="col-md-10">
+                                                            <div class='new-core-value'>
+                                                                <button type="button" class="btn green btn-sm" id='btnAddNewDescriptionModal' <?php echo ($ID == 0 ? 'disabled': "")?>><i class='icon-plus'></i>&nbsp;&nbsp;ADD NEW</button>                                                                   
+                                                            </div>
+                                                            <?php 
+                                                                foreach ($descriptions as $description) {
+                                                                    ?>
+                                                                        <div class='core-value'>                                                                
+                                                                            <span><?php echo $description['Title'];?></span>
+                                                                            <div class='core-value-buttons'>                                                                    
+                                                                                <button type="button" class="btn blue btn-sm btn-circle" onclick='editValue(<?php echo $description["ID"];?>)'><i class='icon-pencil'></i></button>&nbsp;
+                                                                                <button type="button" class="btn red btn-sm btn-circle" onclick='deleteValue(<?php echo $description["ID"];?>)'><i class='icon-trash'></i></button>
+                                                                            </div>
+                                                                        </div>
+                                                                    <?php
+                                                                }
+                                                            ?>                                                            
+                                                        </div>
+                                                    </div>        
                                                     <div class="form-group last">
                                                         <label class="control-label col-md-2">Slides</label>
                                                         <div class="col-md-10">                                                            
@@ -161,7 +183,91 @@
                 <!-- END PAGE CONTENT BODY -->
 
                 <!-- BEGIN MODAL CONTENT BODY -->
-                <!-- BEGIN ADD MODAL CONTENT BODY -->
+                <!-- BEGIN ADD DESCRIPTION MODAL CONTENT BODY -->
+                <div class="modal fade" id="AddNewDescriptionModal" tabindex="-1" role="basic" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                                <h4 class="modal-title">Add New</h4>
+                            </div>
+                            <div class="modal-body">
+                                <form action="" class="form-horizontal form-bordered" id='addNewDescriptionForm'>
+                                    <div class="form-body">
+                                        <div class="form-group">
+                                            <label class="control-label col-md-3">Title</label>
+                                            <div class="col-md-9">
+                                                <input type='text' id='Description' class='form-control' />
+                                            </div>
+                                        </div>                                                                                    
+                                    </div>                                    
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn dark btn-outline" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn green" id='btnAddNewDescription'>Add</button>
+                            </div>
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+                <!-- END ADD DESCRIPTION MODAL CONTENT BODY -->
+
+                <!-- BEGIN EDIT DESCRIPTION MODAL CONTENT BODY -->
+                <div class="modal fade" id="EditDescriptionModal" tabindex="-1" role="basic" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                                <h4 class="modal-title">Edit</h4>
+                            </div>
+                            <div class="modal-body">
+                                <form action="" class="form-horizontal form-bordered" id='addNewForm'>
+                                    <div class="form-body">
+                                        <div class="form-group">
+                                            <label class="control-label col-md-3">Title</label>
+                                            <div class="col-md-9">
+                                                <input type='text' id='DescriptionEdit' class='form-control' />
+                                            </div>
+                                        </div>                                            
+                                    </div>                                                                                                    
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn dark btn-outline" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn green" id='btnUpdateDescription'>Update</button>
+                            </div>
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+                <!-- END EDIT DESCRIPTION MODAL CONTENT BODY -->
+
+                <!-- BEGIN DEELTE DESCRIPTION MODAL CONTENT BODY -->
+                <div class="modal fade" id="deleteDescriptionModal" tabindex="-1" role="basic" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                                <h4 class="modal-title">Delete</h4>
+                            </div>
+                            <div class="modal-body">
+                                Are  you really going to delete this?
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn dark btn-outline" data-dismiss="modal">NO</button>
+                                <button type="button" class="btn green" id='btnDeleteDescription'>YES</button>
+                            </div>
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+                <!-- END DELETE DESCRIPTION MODAL CONTETN BODY -->
+
+                <!-- BEGIN ADD SLIDE MODAL CONTENT BODY -->
                 <div class="modal fade" id="AddNewModal" tabindex="-1" role="basic" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
@@ -191,9 +297,9 @@
                     </div>
                     <!-- /.modal-dialog -->
                 </div>
-                <!-- END ADD MODAL CONTENT BODY -->
+                <!-- END ADD SLIDE MODAL CONTENT BODY -->
 
-                <!-- BEGIN EDIT MODAL CONTENT BODY -->
+                <!-- BEGIN EDIT SLIDE MODAL CONTENT BODY -->
                 <div class="modal fade" id="editModal" tabindex="-1" role="basic" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
@@ -229,9 +335,9 @@
                     </div>
                     <!-- /.modal-dialog -->
                 </div>
-                <!-- END EDIT MODAL CONTENT BODY -->
+                <!-- END EDIT SLIDE MODAL CONTENT BODY -->
 
-                <!-- BEGIN DEELTE MODAL CONTENT BODY -->
+                <!-- BEGIN DEELTE SLIDE MODAL CONTENT BODY -->
                 <div class="modal fade" id="deleteModal" tabindex="-1" role="basic" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
@@ -251,7 +357,7 @@
                     </div>
                     <!-- /.modal-dialog -->
                 </div>
-                <!-- END DELETE MODAL CONTETN BODY -->
+                <!-- END DELETE SLIDE MODAL CONTETN BODY -->
                 <!-- END MODAL CONTENT BODY -->
                 <!-- END CONTENT BODY -->
             </div>
