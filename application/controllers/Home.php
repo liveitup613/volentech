@@ -89,6 +89,11 @@ class Home extends CI_Controller {
 		foreach ($portfolios as $portfolio) {
 			$this->db->select();
 			$this->db->where('PortfolioID', $portfolio['ID']);
+			$this->db->from('tblport_descriptions');
+			$portfolio['Descriptions'] = $this->db->get()->result_array();
+			
+			$this->db->select();
+			$this->db->where('PortfolioID', $portfolio['ID']);
 			$this->db->from('tblslides');
 			$portfolio['Slides'] = $this->db->get()->result_array();
 
