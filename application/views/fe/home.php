@@ -42,7 +42,7 @@
         <div
           style="-webkit-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
           class="home-hero-content-bottom">
-          <h1 class="title home-hero">Where creativity meets produtivity</h1>
+          <h1 class="title home-hero">Where creativity meets productivity</h1>
           <a href="#home-services" data-w-id="e43530a2-a9ef-963b-a9aa-f9eaffb60e7b"
             class="home-hero-scroll-down-wrapper w-inline-block">
             <div
