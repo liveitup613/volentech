@@ -91,7 +91,7 @@ class Home extends CI_Controller {
 			$this->db->where('PortfolioID', $portfolio['ID']);
 			$this->db->from('tblport_descriptions');
 			$portfolio['Descriptions'] = $this->db->get()->result_array();
-			
+
 			$this->db->select();
 			$this->db->where('PortfolioID', $portfolio['ID']);
 			$this->db->from('tblslides');
@@ -135,13 +135,14 @@ class Home extends CI_Controller {
 		$phone = $this->input->post('phone');
 		$email = $this->input->post('email');
 		$message = $this->input->post('message');
+		$subject = $this->input->post('subject');
 
 		$config = Array(
 			'protocol' => 'smtp',
 			'smtp_host' => 'ssl://smtp.googlemail.com',
 			'smtp_port' => 465,
-			'smtp_user' => 'systone.webcontacts@gmail.com',
-			'smtp_pass' => 'Systoneit$',
+			'smtp_user' => 'yugansh@volentech.com',
+			'smtp_pass' => 'Panda1992!',
 			'mailtype' => 'html',
 			'charset' => 'iso-8859-1'
 			);
@@ -149,8 +150,8 @@ class Home extends CI_Controller {
 		$this->load->library('email', $config);		
 
 		$this->email->set_newline("\r\n");
-		$this->email->from('systone.webcontacts@gmail.com', 'Contact Us');
-		$this->email->to('contactus@systoneit.com');
+		$this->email->from('yugansh@volentech.com', 'Contact Us');
+		$this->email->to('liveitup613@gmail.com');
 		$this->email->subject('Contact Us');
 
 		$cotent = "Name: <strong>".$name. "</strong><br>Phone: <strong>" . $phone . "</strong><br>Email: <strong>" .$email ."</strong><br>Message:<br><strong>". $message.'</strong>';
@@ -158,10 +159,16 @@ class Home extends CI_Controller {
 
 		if ($this->email->send())
 		{
-			echo "Email was successfully sent.";
+			echo json_encode(array(
+				'success' => true
+			));
 		}
 		else {  
-			show_error($this->email->print_debugger());
+			// echo $this->email->print_debugger();
+			echo json_encode(array(
+				'success' => false,
+				'message' => $this->email->print_debugger()
+			));			
 		}
 	}
 }

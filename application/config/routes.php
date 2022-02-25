@@ -101,5 +101,5 @@ $route['api/portfolio/description/get'] = 'manageHome/getPortfolioDescription';
 $route['api/portfolio/description/update'] = 'manageHome/updatePortfolioDescription';
 $route['api/portfolio/description/delete'] = 'manageHome/deletePortfolioDescription';
 
-$route['api/sendEmail'] = 'manageContactUs/sendEmail';
+$route['api/sendEmail'] = 'home/sendEmail';
 

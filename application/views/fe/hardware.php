@@ -262,13 +262,13 @@
           </div>
           <div data-w-id="447c44e3-3fc4-d600-ae84-c4ee957a7f70" style="-webkit-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="card service-contact">
             <div class="contact-form-block w-form">
-              <form id="wf-form-Service-Contact-Form" name="wf-form-Service-Contact-Form" data-name="Service Contact Form" method="get" class="contact-form">
+              <form id="wf-form-Contact-Form" name="wf-form-Service-Contact-Form" data-name="Service Contact Form" method="get" class="contact-form">
                 <div class="input-wrapper"><label for="name">Name</label><input type="text" class="input w-input" maxlength="256" name="name" data-name="Name" placeholder="John Carter" id="name" required=""></div>
                 <div class="input-wrapper"><label for="email">Email</label><input type="email" class="input w-input" maxlength="256" name="email" data-name="Email" placeholder="email@example.com" id="email" required=""></div>
                 <div class="input-wrapper"><label for="Phone">Phone number</label><input type="tel" class="input w-input" maxlength="256" name="Phone" data-name="Phone" placeholder="(123) - 465 7890" id="phone" required=""></div>
                 <div class="input-wrapper"><label for="Subject">Subject</label><input type="text" class="input w-input" maxlength="256" name="Subject" data-name="Subject" placeholder="Ex. Project" id="subject" required=""></div>
                 <div id="w-node-_7559e3b3-a8ee-03db-a34a-451e4b409599-36527a17" class="input-wrapper"><label for="Message">Message</label><textarea placeholder="Please describe what service you are interested in..." maxlength="5000" id="message" name="Message" data-name="Message" class="text-area w-input"></textarea></div>
-                <div id="w-node-_72289451-e90f-2cc1-e39f-ddfb999de946-36527a17" class="button-primary form"><input type="submit" value="Send message" data-wait="Please wait..." class="form-button w-button">
+                <div id="w-node-_72289451-e90f-2cc1-e39f-ddfb999de946-36527a17" class="button-primary form"><button type="button" data-wait="Please wait..." class="form-button w-button" id="btnSend">Send message </button>
                   <div class="button-arrow"><span class="button-arrow form"></span></div>
                 </div>
               </form>
@@ -294,6 +294,14 @@
   </div>
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=62097af682558945435279fd" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
   <script src="<?php echo base_url('assets/js/webflow.js');?>" type="text/javascript"></script>  
+
+  <script src="<?php echo base_url('assets/global/plugins/jquery-validation/js/jquery.validate.min.js');?>" type="text/javascript"></script>
+
+  <script>
+      var base_url = "<?php echo base_url();?>";    
+  </script>
+
+  <script src="<?php echo base_url('assets/layouts/layout3/scripts/pages/sendEmail.js');?>" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 </body>
 </html>

@@ -34,7 +34,7 @@
               <div class="input-wrapper"><label for="Phone">Phone number</label><input type="tel" class="input w-input" maxlength="256" name="phone" data-name="Phone" placeholder="(123) - 465 7890" id="phone" required=""></div>
               <div class="input-wrapper"><label for="Subject">Subject</label><input type="text" class="input w-input" maxlength="256" name="Subject" data-name="Subject" placeholder="Ex. Services" id="subject" required=""></div>
               <div id="w-node-_3fc91898-3560-9774-bb13-9677ebf62981-03527a0b" class="input-wrapper"><label for="Message">Message</label><textarea placeholder="Please describe what service you are interested in..." maxlength="5000" id="message" name="message" data-name="Message" class="text-area w-input" rows="5" cols="5"></textarea></div>
-              <div id="w-node-_3fc91898-3560-9774-bb13-9677ebf62985-03527a0b" class="button-primary form"><input type="submit" value="Send message" data-wait="Please wait..." class="form-button w-button">
+              <div id="w-node-_3fc91898-3560-9774-bb13-9677ebf62985-03527a0b" class="button-primary form"><button type="button" data-wait="Please wait..." class="form-button w-button" id="btnSend">Send message </button>
                 <div class="button-arrow"><span class="button-arrow form"></span></div>
               </div>
             </form>
@@ -161,6 +161,14 @@
   </div>
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=62097af682558945435279fd" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
   <script src="<?php echo base_url('assets/js/webflow.js');?>" type="text/javascript"></script> 
+
+  <script src="<?php echo base_url('assets/global/plugins/jquery-validation/js/jquery.validate.min.js');?>" type="text/javascript"></script>
+
+  <script>
+      var base_url = "<?php echo base_url();?>";    
+  </script>
+
+  <script src="<?php echo base_url('assets/layouts/layout3/scripts/pages/sendEmail.js');?>" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 </body>
 </html>
