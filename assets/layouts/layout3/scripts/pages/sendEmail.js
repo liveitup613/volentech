@@ -14,14 +14,17 @@ $('#btnSend').click(function() {
       success: function(res) {
         var result = JSON.parse(res);
         if (result.success == true) {
-          $('.success-message').show();
+            $('.error-message').hide();
+            $('.success-message').show();
         }
         else {
-          $('.error-message').show();
+            $('.success-message').hide();
+            $('.error-message').show();
         }
       },
       error: function() {
-        $('.error-message').show();
+            $('.success-message').hide();
+            $('.error-message').show();
       }
     })
   });
