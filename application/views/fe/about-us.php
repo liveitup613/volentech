@@ -153,7 +153,7 @@
             style="-webkit-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
             role="list" class="team-members-grid w-dyn-items">
             <div role="listitem" class="team-item w-dyn-item">
-              <a href="#" class="team-item-wrapper w-inline-block">
+              <a href="https://www.linkedin.com/in/yugansh92/" class="team-item-wrapper w-inline-block" target="blank">
                 <div class="image-wrapper team-item-image"><img
                     src="<?php echo base_url('assets/images/profile1.png');?>"
                     loading="eager" alt="" class="image team-item-image"></div>
@@ -176,7 +176,7 @@
               </a>
             </div>
             <div role="listitem" class="team-item w-dyn-item">
-              <a href="#" class="team-item-wrapper w-inline-block">
+              <a href="https://www.linkedin.com/in/tianfu-zhang-24b2551a4/" class="team-item-wrapper w-inline-block" target="blank">
                 <div class="image-wrapper team-item-image"><img
                     src="<?php echo base_url('assets/images/profile3.png');?>"
                     loading="eager" alt="" class="image team-item-image"></div>
