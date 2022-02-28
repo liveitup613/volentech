@@ -7,13 +7,11 @@
             alt="VolenTech - Logo" class="footer-logo"></a>
         <p class="paragraph footer-main-content-paragraph">We are a fine Engineering firm in California </p>
         <div class="footer-social-media-wrapper">
-            <a href="https://www.facebook.com/" target="_blank" class="footer-social-media-link"></a>
-            <a href="https://twitter.com/" target="_blank" class="footer-social-media-link icon-size-13px"></a>
-            <a href="https://www.instagram.com/" target="_blank" class="footer-social-media-link"></a>
-            <a href="https://www.linkedin.com/" target="_blank" class="footer-social-media-link icon-size-14px"></a>
-            <a href="https://www.youtube.com/" target="_blank" class="footer-social-media-link icon-size-13px"></a>
-            <a href="https://telegram.org/" target="_blank" class="footer-social-media-link icon-size-13px"></a>
-            <a href="https://www.whatsapp.com/" target="_blank" class="footer-social-media-link icon-size-17px"></a>
+            <a href="https://www.facebook.com/volentech" target="_blank" class="footer-social-media-link"></a>
+            <a href="https://twitter.com/volentech" target="_blank" class="footer-social-media-link icon-size-13px"></a>
+            <a href="https://www.instagram.com/volentech" target="_blank" class="footer-social-media-link"></a>
+            <a href="https://www.linkedin.com/company/volentech-inc/" target="_blank" class="footer-social-media-link icon-size-14px"></a>
+            <a href="https://www.youtube.com/channel/UCAi0XT75oaq28siWzmzkfYw" target="_blank" class="footer-social-media-link icon-size-13px"></a>            
         </div>
         </div>
         <div class="footer-menu-main-wrapper">
