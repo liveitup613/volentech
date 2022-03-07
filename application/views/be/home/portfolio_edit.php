@@ -118,7 +118,7 @@
                                                                             <span><?php echo $description['Title'];?></span>
                                                                             <div class='core-value-buttons'>                                                                    
                                                                                 <button type="button" class="btn blue btn-sm btn-circle" onclick='editValue(<?php echo $description["ID"];?>)'><i class='icon-pencil'></i></button>&nbsp;
-                                                                                <button type="button" class="btn red btn-sm btn-circle" onclick='deleteValue(<?php echo $description["ID"];?>)'><i class='icon-trash'></i></button>
+                                                                                <button type="button" class="btn red btn-sm btn-circle" onclick='deleteDescription(<?php echo $description["ID"];?>)'><i class='icon-trash'></i></button>
                                                                             </div>
                                                                         </div>
                                                                     <?php

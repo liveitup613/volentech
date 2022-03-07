@@ -241,7 +241,7 @@ $('#btnUpdateDescription').click(function() {
 
 
 
-function deleteValue(ID) {
+function deleteDescription(ID) {
     editedID = ID;
     $('#deleteDescriptionModal').modal('show');
 }
