@@ -110,6 +110,9 @@
             <p class="paragraph about-achievements">We believe in continuous and rapid growth by building a strong
               network in the tech industry. With the right mixture of talent in our firm and the years of expertise has
               resulted in various successful projects and new products.</p>
+            <div class="split-content content-top-values-right" style="margin-top: 1.5rem">
+              <a href='https://www.glassdoor.com/Overview/Working-at-VolenTech-EI_IE6900013.11,20.htm'><img src='https://www.glassdoor.com/pc-app/static/img/partnerCenter/badges/eng_BASIC_250x90.png'></a>
+          </div>
           </div>
           <div data-w-id="c40ef506-460d-8591-2e4a-e5c23b26e0f5"
             style="-webkit-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
